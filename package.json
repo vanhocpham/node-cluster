@@ -1,0 +1,32 @@
+{
+  "name": "node-cluster",
+  "version": "1.0.0",
+  "description": "nodejs, clusterjs, cluster ser\t",
+  "main": "noCluster.js",
+  "scripts": {
+    "noCluster": "nodemon -r dotenv noCluster.js",
+    "withCluster": "nodemon -r dotenv withCluster.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hoc-anms/node-cluster.git"
+  },
+  "keywords": [
+    "nodejs",
+    "clusterjs"
+  ],
+  "author": "hoc-anms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoc-anms/node-cluster/issues"
+  },
+  "homepage": "https://github.com/hoc-anms/node-cluster#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
